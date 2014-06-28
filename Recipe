@@ -1,6 +1,6 @@
 project {
 	name = vera-xsettings
-	version = 1.0.0
+	version = 1.0.1
 	minimum-bake-version = 0.1
 }
 
@@ -18,12 +18,12 @@ libraries.vera-xsettings {
 
 }
 
-data.vera-xsettings {
+data.vapi {
 	files = vera-xsettings.vapi
 	install-directory = /usr/share/vala/vapi
 }
 
-data.vera-xsettings {
+data.pkg-config {
 	files = vera-xsettings.pc
 	install-directory = /usr/share/pkgconfig
 }
