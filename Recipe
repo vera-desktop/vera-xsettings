@@ -1,6 +1,6 @@
 project {
 	name = vera-xsettings
-	version = 0.0.1
+	version = 1.0.0
 	minimum-bake-version = 0.1
 }
 
