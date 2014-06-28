@@ -22,3 +22,8 @@ data.vera-xsettings {
 	files = vera-xsettings.vapi
 	install-directory = /usr/share/vala/vapi
 }
+
+data.vera-xsettings {
+	files = vera-xsettings.pc
+	install-directory = /usr/share/pkgconfig
+}
