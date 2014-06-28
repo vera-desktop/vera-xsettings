@@ -1,3 +1,9 @@
+vera-xsettings (1.0.0-2) unstable; urgency=medium
+
+  * debian/: -dev.install: fixed the path in usr/include.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 28 Jun 2014 16:20:01 +0200
+
 vera-xsettings (1.0.0-1) unstable; urgency=low
 
   * Initial release 
