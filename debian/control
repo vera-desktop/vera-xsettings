@@ -1,0 +1,34 @@
+Source: vera-xsettings
+Section: libs
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 8.0.0), build-essential, bake, libx11-dev, valac-0.24
+Standards-Version: 3.9.5
+Homepage: https://semplice-linux.org/
+Vcs-Git: https://github.com/vera-desktop/vera-xsettings.git
+Vcs-Browser: https://github.com/vera-desktop/vera-xsettings
+
+Package: libvera-xsettings-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libvera-xsettings0 (= ${binary:Version})
+Description: Owen Taylor's XSETTINGS specification implementation - development headers
+ vera-xsettings is the reference XSETTINGS specification implementation made by
+ Owen Taylor, repackaged for vera.
+ .
+ This package contains the development headers.
+
+Package: libvera-xsettings-vapi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libvera-xsettings-dev (= ${binary:Version})
+Description: Owen Taylor's XSETTINGS specification implementation - vapi files
+ vera-xsettings is the reference XSETTINGS specification implementation made by
+ Owen Taylor, repackaged for vera.
+ .
+ This package contains the vapi files to use with vala applications.
+
+Package: libvera-xsettings0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Owen Taylor's XSETTINGS specification implementation - library
+ vera-xsettings is the reference XSETTINGS specification implementation made by
+ Owen Taylor, repackaged for vera.
